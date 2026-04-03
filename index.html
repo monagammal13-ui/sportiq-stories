@@ -11,7 +11,7 @@
   <style amp-custom>
     amp-story-page { background-color: #000; }
     .title-box { background: rgba(0,0,0,0.85); padding: 20px; color: #fff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left; border-left: 6px solid #e63946; margin: 15px; }
-    .cta-btn { background: #e63946; color: #fff; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; text-transform: uppercase; display: inline-block; }
+    .cta-btn { background: #e63946; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; text-transform: uppercase; font-size: 14px; }
   </style>
 </head>
 <body>
@@ -38,16 +38,16 @@
     </amp-story-page>
 
     <amp-story-page id="p5">
-      <amp-story-grid-layer template="fill"><amp-img src="image5.jpg" width="720" height="1280" layout="responsive"></amp-img></amp-story-grid-layer>
-      <amp-story-grid-layer template="vertical">
-        <div class="title-box">
-          <p>Get the full tactical breakdown of this historic upset.</p>
-          <a href="https://www.sportiq.org/2026/04/dundee-united-rangers-tactical-upset-analysis-2026.html" class="cta-btn">Read Full Report</a>
-        </div>
+      <amp-story-grid-layer template="fill">
+        <amp-img src="image5.jpg" width="720" height="1280" layout="responsive"></amp-img>
       </amp-story-grid-layer>
+      <amp-story-cta-layer>
+        <a href="https://www.sportiq.org/2026/04/dundee-united-rangers-tactical-upset-analysis-2026.html" class="cta-btn">
+          READ FULL REPORT
+        </a>
+      </amp-story-cta-layer>
     </amp-story-page>
 
   </amp-story>
 </body>
 </html>
-
